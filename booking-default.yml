@@ -2,5 +2,5 @@ config:
   datasource:
     url: "jdbc:mysql://localhost:3308/bookingdb"
     username: "root"
-    password: "{cipher}7df910f143a677541b076efec65035162b940e4891f87b227ab97f1b4ee7ad89diego@diegos"
+    password: "{cipher}7df910f143a677541b076efec65035162b940e4891f87b227ab97f1b4ee7ad89"
     driverClassName: "com.mysql.jdbc.Driver"
