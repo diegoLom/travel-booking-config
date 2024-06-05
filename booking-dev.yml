@@ -1,6 +1,6 @@
 config:
   datasource:
-    url: "jdbc:mysql://bookingdb:3308/bookingdb"
+    url: "jdbc:mysql://172.20.0.1:3308/bookingdb"
     username: "root"
     password: "{cipher}7df910f143a677541b076efec65035162b940e4891f87b227ab97f1b4ee7ad89"
     driverClassName: "com.mysql.jdbc.Driver"
