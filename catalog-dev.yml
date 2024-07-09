@@ -4,3 +4,23 @@ config:
     username: "root"
     password: "{cipher}45c0a8d3738f0c32f66476b07c1af96bce87b295b272cf96633d4f1ceb172988"
     driverClassName: "com.mysql.jdbc.Driver"
+
+
+endpoints:
+  shutdown:
+    enabled: true
+    
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "cards"
+    description: "LoSolved Catalog Application"
+    version: "1.0.0"
