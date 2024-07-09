@@ -2,7 +2,7 @@ config:
   datasource:
     url: "jdbc:mysql://localhost:3308/bookingdb"
     username: "root"
-    password: "{cipher}7df910f143a677541b076efec65035162b940e4891f87b227ab97f1b4ee7ad89"
+    password: "{cipher}3a669dbdeddf89ae9094658e02ae58f924305d8304d5d680349c55cd67ca99f1"
     driverClassName: "com.mysql.jdbc.Driver"
 
 endpoints:
