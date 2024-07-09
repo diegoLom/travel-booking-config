@@ -4,3 +4,22 @@ config:
     username: "root"
     password: "{cipher}7df910f143a677541b076efec65035162b940e4891f87b227ab97f1b4ee7ad89"
     driverClassName: "com.mysql.jdbc.Driver"
+
+endpoints:
+  shutdown:
+    enabled: true
+    
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "cards"
+    description: "LoSolved Booking Application"
+    version: "1.0.0"
