@@ -20,6 +20,6 @@ eureka:
 
 info:
   app:
-    name: "cards"
+    name: "booking"
     description: "LoSolved Booking Application"
     version: "1.0.0"
