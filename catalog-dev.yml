@@ -21,6 +21,6 @@ eureka:
 
 info:
   app:
-    name: "cards"
+    name: "catalog"
     description: "LoSolved Catalog Application"
     version: "1.0.0"
