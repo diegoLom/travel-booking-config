@@ -1,6 +1,6 @@
 config:
   datasource:
-    url: "jdbc:mysql://catalogdb:3306/catalogdb"
+    url: "jdbc:mysql://localhost:3310/catalogdb"
     username: "root"
     password: "{cipher}45c0a8d3738f0c32f66476b07c1af96bce87b295b272cf96633d4f1ceb172988"
     driverClassName: "com.mysql.jdbc.Driver"
