@@ -18,6 +18,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8070/eureka/
 
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
 info:
   app:
     name: "user"
